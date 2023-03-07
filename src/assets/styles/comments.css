@@ -66,7 +66,6 @@
 .comments-list {
   display: flex;
   color: var(--primary-color);
-  width: 50%;
   overflow: hidden;
   flex-direction: column;
   justify-content: center;
@@ -76,10 +75,12 @@
 .comment {
   display: flex;
   flex-direction: column;
+  width: 80%;
   margin: 1rem;
   border: 2px solid #fff;
   border-radius: 5px;
   padding: 1rem;
+  word-wrap: break-word;
 }
 .post-comment-name {
   font-size: 1.2rem;
